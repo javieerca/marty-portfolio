@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio 1</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+        />
+
+        <link rel="stylesheet" href="styles.css" />
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body class="color-fondo">
+        <!-- navbar de bootstrap -->
+
+        <nav
+            class="navbar navbar-expand-lg bg-body-tertiary justify-content-around color-fondo nav-size sticky-top"
+        >
+            <div class="container-fluid">
+                <a
+                    class="navbar-brand border rounded-pill overflow-hidden img-logo fondo_claro"
+                    href="#"
+                >
+                    <img
+                        src="https://icon-library.com/images/developers-icon/developers-icon-26.jpg"
+                        class="img-fluid d-block text-center"
+                        alt="logo"
+                    />
+                </a>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <div
+                        class="w-100 d-lg-flex justify-content-between align-items-center"
+                    >
+                        <!-- Pestañas -->
+                        <div class="me-3">
+                            <ul
+                                class="navbar-nav border rounded-pill bg-body justify-content-around align-items-center overflow-hidden"
+                            >
+                                <li
+                                    class="nav-item navbar-item-hover fondo_claro"
+                                >
+                                    <a class="nav-link" href="#presentation"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li
+                                    class="nav-item navbar-item-hover fondo_claro"
+                                >
+                                    <a class="nav-link" href="#vehicles"
+                                        >Vehicles</a
+                                    >
+                                </li>
+                                <li
+                                    class="nav-item navbar-item-hover fondo_claro"
+                                >
+                                    <a class="nav-link" href="#">Orders</a>
+                                </li>
+                                <li
+                                    class="nav-item navbar-item-hover fondo_claro"
+                                >
+                                    <a class="nav-link" href="#">Marketing</a>
+                                </li>
+                                <li
+                                    class="nav-item navbar-item-hover fondo_claro"
+                                >
+                                    <a class="nav-link" href="#">Analitycs</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- buscador -->
+                        <div
+                            class="ms-auto fondo_claro border rounded-pill d-flex align-items-center justify-content-between"
+                        >
+                            <div class="">
+                                <form class="p-2 search_navbar" role="search">
+                                    <input
+                                        class="form-control border rounded-pill search_navbar"
+                                        type="search"
+                                        placeholder="Search"
+                                        aria-label="Search"
+                                    />
+                                </form>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <div
+                                    class="col border rounded-circle color-fondo mx-2 nav-circle"
+                                ></div>
+                                <div
+                                    class="col border rounded-circle color-fondo mx-2 nav-circle"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- contenido de la pagina -->
+        <div class="body-content">
+            <div
+                id="presentation"
+                class="row justify-content-center border rounded p-5 m-5 fondo_claro"
+            >
+                <!-- presentacion -->
+                <div
+                    class="row justify-content-center p-2 m-5 presentation_box"
+                >
+                    <img
+                        src="https://preview.redd.it/the-mcfly-siblings-v0-zy5d9cf82and1.jpeg?auto=webp&s=462dc08ed3b912c148e118a967f46901cd213a28"
+                        class="img-fluid profile_pic border rounded-circle p-0 overflow-hidden"
+                        alt="profile_pic"
+                    />
+                    <h2 class="text-center letras_claras">Marty McFly</h2>
+                    <p class="text-center letras_claras m-3 fs-4">
+                        High School Senior. Skateboarder. Aspiring Rock Star.
+                        Part-Time Time Traveler.
+                    </p>
+                </div>
+
+                <!-- table -->
+                <div id="vehicles" class="border rounded mt-4 color-terciario">
+                    <div class="d-flex text-center">
+                        <div class="row align-items-start p-2 gy-4">
+                            <div class="col col-12 text-center p-3 ">
+                                <h2 class="text-center letras_claras ">
+                                    My vehicles
+                                </h2>
+                            </div>
+                            
+                           
+                            <div class="col col-4">
+                                <div class="card p-2">
+                                    <div class="img_card_container overflow-hidden">
+                                        <img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/0/0f/DeLorean_Replica_Kovacs_Time_Machine.png"
+                                            class="card-img-top border rounded overflow-hidden"
+                                            alt="..."
+                                        />
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">DeLorean</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-4">
+                                <div class="card p-2">
+                                    <div class="img_card_container overflow-hidden">
+                                        <img
+                                            src="https://www.gannett-cdn.com/-mm-/202e07e067e822eb7c382611b0a0038aa9ba5640/c=0-0-4180-2358/local/-/media/USATODAY/USATODAY/2014/07/10/1405003369000-Back-To-The-Future-2---Marty-McFly-Hoverboard-1-.jpg?width=2560"
+                                            class="card-img-top border rounded"
+                                            alt="..."
+                                        />
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Hoverboard</p>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="col col-4">
+                                <div class="card p-2">
+                                    <div class="img_card_container overflow-hidden">
+                                        <img
+                                            src="https://i.redd.it/ixur9melj0y41.jpg"
+                                            class="card-img-top border rounded"
+                                            alt="..."
+                                        />
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Flying DeLorean</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col col-4">
+                                <div class="card p-2">
+                                    <div class="img_card_container overflow-hidden">
+                                        <img
+                                            src="https://kneelbeforeblog.co.uk/wp-content/uploads/2015/10/vlcsnap-00961.png"
+                                            class="card-img-top border rounded"
+                                            alt="..."
+                                        />
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Restored DeLorean</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-4">
+                                <div class="card p-2">
+                                    <div class="img_card_container overflow-hidden">
+                                        <img
+                                            src="https://d2thvodm3xyo6j.cloudfront.net/media/2022/05/1433f6361d166b73-600x338.jpg"
+                                            class="card-img-top border rounded"
+                                            alt="..."
+                                        />
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Train</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-4">
+                                <div class="card p-2">
+                                    <div class="img_card_container overflow-hidden">
+                                        <img
+                                            src="https://i.pinimg.com/474x/0f/9f/56/0f9f56cf8268f49e5eed6d85d18070a3.jpg"
+                                            class="card-img-top border rounded"
+                                            alt="..."
+                                        />
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Horse</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tabla -->
+        </div>
+    </body>
+</html>
